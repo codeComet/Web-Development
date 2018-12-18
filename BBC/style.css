@@ -1,0 +1,1050 @@
+body {
+	background: #fff;
+	font-family: Helvetica, Arial, freesans, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#topbar {
+	width: 95%;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#bbc-logo {
+	margin-top: 8px;
+	width: 85px;
+	float: left;
+	padding-right: 15px;
+}
+
+.topbar-section {
+	float: left;
+	border-left: 1px solid #CCC;
+	height: 40px;
+}
+
+.menu-section {
+	float: left;
+	border-left: 1px solid #fff;
+	height: 20px;
+}
+
+#user-logo {
+	width: 20px;
+	margin: 12px 5px 0px 15px;
+}
+
+#signin span {
+	font-size: 15px;
+	font-weight: bold;
+	position: relative;
+	top: -3px;
+	color: #333;
+	margin-right: 70px;
+}
+
+#home span, #news span, #weather span, #reel span, #sport span, #travel span, #capital span,
+#more span, #shop span {
+	position: relative;
+	top: 13px;
+	color: #333;
+	font-weight: bold;
+	padding: 0px 20px 0px 20px;
+}
+
+#bbc-logo:hover, #news-img:hover {
+	cursor: pointer;
+}
+
+#home:hover span, #news:hover span, #weather:hover span,
+#reel:hover span, #sport:hover span,
+#travel:hover span, #capital:hover span,
+#more:hover span, #shop:hover span, #signin:hover span {
+	cursor: pointer;
+	color: red;
+	transition: 400ms;
+}
+
+#more {
+	padding-right: 10px;
+}
+
+#more .fa {
+	position: relative;
+	top: 10px;
+	padding-left: 30px;
+}
+
+#search input {
+	position: relative;
+	top: 8px;
+	left: 15px;
+	padding: 3px;
+	font-weight: bold;
+	width: 150px;
+	border: 1px solid #CCC;
+	background: #CCC;
+}
+
+#search button {
+	position: relative;
+	top: 8px;
+	left: 9px;
+	padding: 3px 5px;
+	background: transparent;
+	border: 1px solid #CCC;
+}
+
+#search button:hover {
+	cursor: pointer;
+	background: #CCC;
+	transition: 0.3s;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*End of Top Menu section*/
+
+#news-img {
+	background: #BB1919;
+	height: 60px;
+}
+
+#news-img img {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#menu {
+	height: 30px;
+	background: #BB1919;
+	width: 100%;
+}
+
+#sub-menu {
+	width: 97%;
+	margin: auto;
+}
+
+#nav-items {
+	float: left;
+	padding: 0px 13px;
+	font-size: 13px;
+}
+
+#nav-items:hover a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+#nav-items a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav-items .fa {
+	color: #fff;
+	position: relative;
+	bottom: 2px;
+	left: 10px;
+}
+
+/*End of second Menu section*/
+.main-div, .secondary-div {
+	width: 95%;
+	margin: 0px auto;
+}
+.must-see,
+.most-watched, .full-story, .long-reads,
+.most-read, .around-bbc, .sport, .find-us,
+.stupid {
+	width: 93%;
+	margin: 0px auto;
+}
+
+#first-section {
+	width: 59%;
+	float: left;
+	margin-right: 1%;
+}
+
+#first, #second, #third, #fourth {
+	float: left;
+}
+
+#first {
+	width: 40%;
+}
+
+#second {
+	width: 58%;
+	margin-left: 2%;
+}
+
+#first h2 {
+	color: #333;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#first:hover h2, #time-tag .tag a:hover,
+#third:hover h3, #fourth:hover h3,
+#insight a:hover, #grace:hover h3,
+#harassment:hover h3, #turkey:hover h3,
+#heading:hover h3{
+	color: #1380A1;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#first p {
+	color: #5A5A5A;
+	font-size: 15px;
+	width: 90%;
+}
+
+#time-tag {
+	display: flex;
+	width: 100%;
+}
+
+#time-tag .time {
+	padding-right: 10px;
+}
+
+#time-tag .tag a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #5A5A5A;
+}
+
+.time img {
+	width: 14px;
+	position: relative;
+	top: 1px;
+	margin-right: 5px;
+}
+
+.time {
+	font-size: 14px;
+	color: #3A3A3A;
+}
+
+.time-section {
+	border-right: 1px solid #CCC;
+	height: 15px;
+	margin-right: 10px;
+}
+
+#second img {
+	margin-top: 20px;
+	width: 440px;
+}
+
+#second-section {
+	width: 40%;
+	float: left;
+	margin-top: 20px;
+}
+
+#third {
+	width: 47%;
+	margin-right: 2%;
+}
+
+#third p, #fourth p,
+#grace p, #harassment p,
+#turkey p {
+	width: 90%;
+	color: #5A5A5A;
+	font-size: 15px;
+}
+
+#third h3, #fourth h3, #grace h3,
+#harassment h3, #turkey h3,
+#heading h3 {
+	width: 95%;
+	color: #333;
+	margin-top: 5px;
+	font-size: 17px;
+}
+
+#fourth {
+	width: 50%;
+	margin-right: 1%;
+}
+
+/*End of Heading section*/
+
+#insight {
+	width: 59%;
+	position: relative;
+	top: -35px;
+}
+
+#insight ul {
+	display: flex;
+	margin-top: 0px;
+	justify-content: space-around;
+}
+
+#insight ul li {
+	margin: 0px 40px 0px 10px;
+}
+
+#insight a {
+	text-decoration: none;
+	color: #222;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*End of insight section*/
+
+.secondary-div, .short-news {
+	display: flex;
+	justify-content: space-around;
+}
+
+.secondary-div .news {
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#grace, #harassment, #turkey {
+	width: 32%;
+}
+
+.secondary-div .short-news {
+	width: 40%;
+}
+
+.short-news .first-div {
+	width: 58%;
+}
+
+.short-news .second-div {
+	width: 60%;
+}
+
+#heading h3 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+#heading #time-tag {
+	margin: 10px 0px;
+}
+
+/*End of secondary div section*/
+
+.must-see {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.must-see .top-section #head {
+	width: 10%;
+	float: left;
+}
+
+.must-see .top-section #border {
+	width: 90%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+#nigeria {
+	width: 40%;
+}
+
+#whole {
+	display: flex;
+	justify-content: space-around;
+}
+
+#nigeria img {
+	width: 490px;
+}
+
+#nigeria h2 {
+	color: #333;
+	margin: 10px 0px 0px 0px;
+	font-size: 22px;
+}
+
+#other-news #bbc, #other-news #cards,
+#other-news #best-news {
+	width: 34%;
+}
+
+#other-news {
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#bbc #watch {
+	background: #BB1919;
+	height: 50px;
+	width: 95%;
+}
+
+#bbc #listen {
+	width: 95%;
+	height: 50px;
+	margin-top: 5px;
+	background: #222222;
+}
+
+#bbc #watch img, 
+#bbc #listen img {
+	width: 20px;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+
+#bbc #watch h3,
+#bbc #listen h3 {
+	margin-top: 0px;
+	position: relative;
+	top: -8px;
+	left: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#bbc #global,
+#bbc #radio {
+	background: #F2EFEC;
+	padding: 9px;
+	width: 88%;
+}
+
+#bbc #global h3,
+#bbc #radio h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	color: #333;
+}
+
+#bbc #global p,
+#bbc #radio p {
+	margin-top: 4px;
+	color: #5A5A5A;
+	font-size: 14px;
+}
+
+#bbc #newsflash {
+	margin-top: 25px;
+}
+
+#bbc #newsflash img {
+	width: 244px;
+}
+
+#bbc #newsflash h3,
+#cards #nebula h3,
+#best-news #photos h3,
+#best-news #royal h3  {
+	color: #222;
+	font-size: 17px;
+	margin-top: 5px;
+}
+
+#cards #rainbow {
+	margin-bottom: 86px;
+}
+
+#cards #rainbow h3 {
+	margin-top: 5px;
+	color: #222;
+	font-size: 18px;
+}
+
+#best-news h3{
+	width: 95%;
+}
+
+#best-news #photos {
+	margin-bottom: 109px;
+}
+
+
+#bbc #newsflash:hover h3,
+#cards #nebula:hover h3,
+#best-news #photos:hover h3,
+#best-news #royal:hover h3,
+#nigeria:hover h2, #bbc #global:hover h3,
+#bbc #radio:hover h3, #cards #rainbow:hover h3{
+	text-decoration: underline;
+	color: #1380A1;
+	cursor: pointer;
+}
+
+/*End of Must see section*/
+
+.most-watched .top-section #head {
+	width: 15%;
+	float: left;
+}
+
+.most-watched .top-section #border {
+	width: 85%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+.most-watched #parent {
+	margin: 20px 0px;
+}
+
+
+#num1, #num2, #num3, #num4, #num5 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.most-watched #parent img {
+	width: 20px;
+	height: 30px;
+}
+
+#num5 img {
+	position: relative;
+	right: 10px;
+}
+
+.most-watched #parent h3 {
+	color: #222;
+	font-size: 16px;
+	position: relative;
+	left: -10px;
+	bottom: 20px;
+	width: 70%;
+}
+
+.most-watched #parent h3:hover {
+	text-decoration: underline;
+	color: #1380A1;
+	cursor: pointer;
+}
+
+.most-watched #parent {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*End of Most watched section*/
+
+.full-story .top-section #head {
+	width: 10%;
+	float: left;
+}
+
+.full-story .top-section #border {
+	width: 85%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+.full-story .top-section #see-all {
+	float: left;
+	width: 5%;
+	position: relative;
+	top: 25px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.full-story .top-section #see-all:hover{
+	text-decoration: underline;
+	color: #1380A1;
+	cursor: pointer;
+}
+
+.full-story #nigeria {
+	margin-right: 10px;
+}
+
+.full-story #other-news h3 {
+	font-size: 15px;
+	width: 90%;
+	margin-top: 5px;
+	color: #222;
+}
+
+#extremist, #fight {
+	margin-right: 17px;
+}
+
+.full-story #other-news {
+	display: flex;
+	justify-content: space-around;
+}
+
+#terror:hover h3, #putin:hover h3, #bank:hover h3,
+#yemen:hover h3, #bacteria:hover h3, #voter:hover h3 {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #1380A1;
+}
+
+#putin, #yemen {
+	margin-top: 50px;
+}
+
+#voter {
+	margin-top: 33px;
+}
+
+/*End of Full Story section*/
+
+.long-reads .top-section #head {
+	width: 12%;
+	float: left;
+}
+
+.long-reads .top-section #border {
+	width: 83%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+.long-reads .top-section #see-all {
+	float: left;
+	width: 5%;
+	position: relative;
+	top: 25px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.long-reads .top-section #see-all:hover{
+	text-decoration: underline;
+	color: #1380A1;
+	cursor: pointer;
+}
+
+#lock, #wilson,
+#whirlpool, #teen,
+#triple {
+	width: 19%;
+}
+
+#lock:hover h3, #wilson:hover h3,
+#whirlpool:hover h3, #teen:hover h3,
+#triple:hover h3 {
+	color: #1380A1;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.long-reads #container {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#container h3 {
+	font-size: 16px;
+	width: 90%;
+}
+
+/*End of Long Reads Section*/
+
+
+.most-read {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.most-read .top-section #head {
+	width: 10%;
+	float: left;
+}
+
+.most-read .top-section #border {
+	width: 90%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+.headline-div {
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+#one img {
+	width: 15px;
+}
+
+.headline-div img {
+	float: left;
+	margin-right: 25px;
+	width: 20px;
+	position: relative;
+	top: 15px;
+}
+
+.headline-div h4 {
+	float: left;
+}
+
+#ten {
+	float: left;
+}
+
+#ten img {
+	width: 32px;
+	margin-right: 15px;
+}
+
+#one:hover h4, #two:hover h4, #three:hover h4, #four:hover h4, #five:hover h4,
+#six:hover h4, #seven:hover h4, #eight:hover h4, #nine:hover h4, #ten:hover h4 {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #1380A1;
+}
+
+/*End of Most read section*/
+
+.around-bbc {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.around-bbc .top-section #head {
+	width: 15%;
+	float: left;
+}
+
+.around-bbc .top-section #border {
+	width: 85%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+#big {
+	width: 39%;
+}
+
+#big img {
+	width: 490px;
+}
+
+#twelve, #holiday {
+	width: 19%;
+}
+
+#dino {
+	width: 20%;
+}
+.parent-div {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.parent-div h3 {
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	color: #222;
+}
+
+.parent-div a {
+	text-decoration: none;
+	margin-top: 0px;
+	font-size: 13px;
+	color: #222;
+}
+
+#big h2 {
+	color: #222;
+	margin: 5px 0px;
+}
+
+.parent-div a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #1380A1;
+}
+
+#big:hover h3, #money:hover h3, #brain:hover h3,
+#tradition:hover h3, #rock:hover h3, #crazy:hover h3, #hobby:hover h3, #big:hover h2 {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #1380A1;
+}
+
+#brain, #hobby {
+	margin-top: 50px;
+}
+
+#rock {
+	margin-top: 33px;
+}
+
+/*End of Around the BBC Section*/
+
+.sport {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sport .top-section #head {
+	width: 6%;
+	float: left;
+}
+
+.sport .top-section #border {
+	width: 89%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+.sport .top-section #see-all {
+	float: left;
+	width: 5%;
+	position: relative;
+	top: 25px;
+	left: 10px;
+	font-weight: bold;
+}
+
+.sport .top-section #see-all:hover{
+	text-decoration: underline;
+	color: #1380A1;
+	cursor: pointer;
+}
+.sport #rock {
+	margin-top: 51px;
+}
+
+.sport #big #time-tag {
+	margin-top: 15px;
+}
+.sport #big #time-tag img {
+	width: 17px;
+	position: relative;
+}
+
+.sport #big img {
+	width: 490px;
+}
+
+/*End of sport Section*/
+
+.find-us {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.find-us .top-section #head {
+	width: 13%;
+	float: left;
+}
+
+.find-us .top-section #border {
+	width: 87%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px solid #7B756F;
+	position: relative;
+	top: 30px;
+}
+
+.find-us #content {
+	display: flex;
+}
+
+.find-us .divider{
+	height: 120px;
+	border-right: 1px solid #CCC;
+	margin-top: 18px;
+}
+
+.find-us .newsfeed {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+}
+.find-us #news-daily, .find-us #news-app {
+	width: 23%;
+}
+
+#news-daily:hover #desc p, #news-app:hover #desc p{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.find-us #contact {
+	width: 29%;
+	margin-top: 13px;
+}
+
+.find-us .icons {
+	width: 30%;
+	display: flex;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+
+.find-us .icons .fa {
+	font-size: 35px;
+	color: #333;
+}
+
+.find-us .icons #twitter, 
+.find-us .icons #facebook {
+	margin-right: 45px;
+}
+
+.find-us .newsfeed #divide {
+	height: 20px;
+	border-right: 1px solid #CCC;
+}
+
+.find-us .newsfeed #pic1 img {
+	width: 25px;
+}
+
+.find-us .newsfeed #pic2 img {
+	width: 40px;
+}
+
+.find-us .newsfeed #desc {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+#contact p {
+	font-size: 14px;
+}
+
+.find-us .icons #twitter:hover .fa {
+	color: #1DA1F2;
+	transition: 200ms;
+	cursor: pointer;
+}
+
+.find-us .icons #facebook:hover .fa {
+	color: #3D5A98;
+	transition: 200ms;
+	cursor: pointer;	
+}
+
+.find-us .icons #insta:hover .fa {
+	color: #D93175;
+	transition: 200ms;
+	cursor: pointer;		
+}
+
+/*End of Find Us section*/
+
+.explore {
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.explore {
+	background: #4C4C4C;
+}
+
+.explore h2 {
+	color: white;
+}
+
+.explore .stupid #col {
+	width: 20%;
+}
+
+.stupid #divider {
+	height: 130px;
+	border-left: 1px solid #949494;
+}
+
+.explore ul li {
+	list-style: none;
+	padding: 5px 0px;
+}
+
+.explore a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.explore a:hover {
+	text-decoration: underline;
+	color: #fff;
+	cursor: pointer;
+}
+
+.explore #border {
+	width: 93%;
+	border-bottom: 1px solid #949494;
+	margin: 10px auto;
+}
+
+.explore #term ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+.explore #term ul li a {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.explore #term ul li a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#copy {
+	width: 94%;
+	margin: 0px auto;
+	margin-top: 25px;
+}
+
+#copy p {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+}
