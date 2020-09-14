@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" style="padding: 0px 10px 0px 0px;">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <a class="navbar-brand" href="#home">Documentation</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#download">Download</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#javascript">JavaScript</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#build-tools">Build Tools</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#accessibility">Accessibility</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <nav>
+                    <div class="vertical-menu">
+                        <h4>Documentation</h4>
+                        <a href="#home" class="active bt">Home</a>
+                        <a href="#download" class="bt">Download</a>
+                        <a href="#javascript" class="bt">JavaScript</a>
+                        <a href="#build-tools" class="bt">Build Tools</a>
+                        <a href="#accessibility" class="bt">Accessibility</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-9 content">
+                <section id="home">
+                    <h1>Introduction</h1>
+                    <p class="intro">Get started with Bootstrap, the world’s most popular framework for building
+                        responsive, mobile-first sites, with BootstrapCDN and a template starter page.</p>
+                    <br>
+                    <h3>Quick Start</h3>
+                    <p>Looking to quickly add Bootstrap to your project? Use BootstrapCDN, provided for free by the
+                        folks at MaxCDN. Using a package manager or need to download the source files? <a href="#">Head
+                            to the downloads page.</a></p>
+                    <br>
+                    <h3>CSS</h3>
+                    <p>Copy-paste the stylesheet <span class="txt">&lt;link&gt;</span> into your <span
+                            class="txt">&lt;head&gt;</span> before all other stylesheets to load our CSS.</p>
+                    <pre>
+                        <code>&lt; <span class="txt">link</span> <span class="txt">rel=</span> <span class="qt">"stylesheet"</span> <span class="txt">href=</span> <span class="qt">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"</span>  <span class="txt">integrity=</span> <span class="qt">"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"</span> <span class="txt">crossorigin=</span> <span class="qt">"anonymous"</span> &gt;</code>
+                    </pre>
+                    <br>
+                    <h3>JS</h3>
+                    <p>Many of our components require the use of JavaScript to function. Specifically, they require
+                        jQuery, Popper.js, and our own JavaScript plugins. Place the following <span
+                            class="txt">&lt;script&gt;</span> near the end of your pages, right before the closing <span
+                            class="txt">&lt;/body&gt;</span> tag, to enable them. <a href="#">jQuery</a> must come
+                        first, then <a href="#">Popper.js</a>, and then our JavaScript plugins.</p>
+                    <p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show
+                        components <a href="#">link</a> below. If you’re at all unsure about the general page structure,
+                        keep reading for an example page template.</p>
+                    <pre>
+                        <code>&lt; <span class="txt">script</span> <span class="txt">src=</span> <span class="qt">"https://code.jquery.com/jquery-3.2.1.slim.min.js"</span> <span class="txt">integrity=</span> <span class="qt">"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"</span> <span class="txt">crossorigin=</span> <span class="qt">"anonymous"</span> &gt;</code> <br>
+                        <code>&lt; <span class="txt">script</span> <span class="txt">src=</span> <span class="qt">"https://code.jquery.com/jquery-3.2.1.slim.min.js"</span> <span class="txt">integrity=</span> <span class="qt">"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"</span> <span class="txt">crossorigin=</span> <span class="qt">"anonymous"</span> &gt;</code> <br>
+                        <code>&lt; <span class="txt">script</span> <span class="txt">src=</span> <span class="qt">"https://code.jquery.com/jquery-3.2.1.slim.min.js"</span> <span class="txt">integrity=</span> <span class="qt">"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"</span> <span class="txt">crossorigin=</span> <span class="qt">"anonymous"</span> &gt;</code>
+                    </pre>
+                    <br>
+                    <h3>Import Globals</h3>
+                    <p>Bootstrap employs a handful of important global styles and settings that you’ll need to be aware
+                        of when using it, all of which are almost exclusively geared towards the normalization of cross
+                        browser styles. Let’s dive in.</p>
+                    <br>
+                    <h3>HTML5 doctype</h3>
+                    <pre>
+                        <code>&lt;!doctype html&gt;</code> <br>
+                        <code>&lt;<span class="txt">html</span> <span class="txt">lang=</span><span class="qt">"en"</span>&gt;</code> <br>
+                        ...
+                        <br><code><span class="txt">&lt;/html&gt;</span></code>
+                    </pre>
+                    <br>
+                    <h3>Box-sizing</h3>
+                    <p>For more straightforward sizing in CSS, we switch the global box-sizing value from content-box to
+                        border-box. This ensures padding does not affect the final computed width of an element, but it
+                        can cause problems with some third party software like Google Maps and Google Custom Search
+                        Engine.</p>
+
+                    <p>On the rare occasion you need to override it, use something like the following:</p>
+                    <pre>
+                        <code><span class="txt">.selector-for-some-widget</span> {</code> <br>
+                        <code><span class="qt">       box-sizing</span>: content-box;</code> <br>
+                        }
+                    </pre>
+                    <p>With the above snippet, nested elements—including generated content via <span
+                            class="txt">::before</span> and <span class="txt">::after</span>—will all inherit the
+                        specified box-sizing for that .selector-for-some-widget.</p>
+                    <br>
+                </section>
+
+                <!-- DOWNLOAD SECTION -->
+
+                <section id="download">
+                    <h1>Download</h1>
+                    <p class="intro">Download Bootstrap to get the compiled CSS and JavaScript, source code, or include
+                        it with your favorite package managers like npm, RubyGems, and more.</p>
+                    <br>
+                    <h3>Compiled CSS and JS</h3>
+                    <p>Download ready-to-use compiled code for <b>Bootstrap v4.0.0 </b> to easily drop into your
+                        project, which includes:</p>
+                    <ul>
+                        <li>Compiled and minified CSS bundles (<a href="#">see CSS files comparison</a>)</li>
+                        <li>Compiled and minified JavaScript plugins</li>
+                    </ul>
+                    <p>This doesn’t include documentation, source files, or any optional JavaScript dependencies (jQuery
+                        and Popper.js).</p>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Download</button>
+
+                    <br> <br><br>
+                    <h3>Source files</h3>
+                    <p>Compile Bootstrap with your own asset pipeline by downloading our source Sass, JavaScript, and
+                        documentation files. This option requires some additional tooling::</p>
+                    <ul>
+                        <li>Sass compiler (Libsass or Ruby Sass is supported) for compiling your CSS.</li>
+                        <li><a href="#">Autoprefixer</a> for CSS vendor prefixing</li>
+                    </ul>
+                    <p>Should you require <a href="#">build tools</a>, they are included for developing Bootstrap and
+                        its docs, but they’re likely unsuitable for your own purposes.</p>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Download source</button>
+
+                    <br>
+                    <br>
+                    <br>
+                    <h3>Package Manager</h3>
+                    <p>Pull in Bootstrap’s <b>source files</b> into nearly any project with some of the most popular
+                        package managers. No matter the package manager, Bootstrap will <b>require a Sass compiler</b>
+                        and <a href="#">Autoprefixer</a> for a setup that matches our official compiled versions.</p>
+                    <br>
+                    <h3>npm</h3>
+                    <pre>
+                        <code>
+                            $ npm install bootstrap
+                        </code>
+                    </pre>
+                    <p>
+                        <span class="qt">require('bootstrap') </span> will load all of Bootstrap’s jQuery plugins onto
+                        the jQuery object. The <span class="qt">bootstrap</span> module itself does not export anything.
+                        You can manually load Bootstrap’s jQuery plugins individually by loading the <span
+                            class="qt">/js/*.js</span> files under the package’s top-level directory.
+                    </p>
+                    <p>Bootstrap’s <span class="qt">package.json</span> contains some additional metadata under the
+                        following keys:</p>
+                    <ul>
+                        <li><span class="qt">sass</span> - path to Bootstrap’s main <a href="#">Sass</a> source file
+                        </li>
+                        <li><span class="qt">style</span> - path to Bootstrap’s non-minified CSS that’s been precompiled
+                            using the default settings (no customization)</li>
+                    </ul>
+
+                    <br><br>
+                    <h3>NuGet</h3>
+                    <p>If you develop in .NET, you can also install and manage Bootstrap’s <a href="#">CSS</a> or <a
+                            href="#">Sass</a> and JavaScript using <a href="#">NuGet</a>:</p>
+                    <pre>
+                        <code>
+                            PM> Install-Package bootstrap
+                        </code>
+                    </pre>
+                    <pre>
+                        <code>
+                            PM> Install-Package bootstrap.sass
+                        </code>
+                    </pre>
+                    <br>
+                </section>
+
+                <!-- JAVASCRIPT SECTION -->
+                <section id="javascript">
+                    <h1>JavaScript</h1>
+                    <p class="intro">
+                        Bring Bootstrap to life with our optional JavaScript plugins built on jQuery. Learn about each
+                        plugin, our data and programmatic API options, and more.
+                    </p>
+                    <br>
+                    <h3>Individual or compiled</h3>
+                    <p>Plugins can be included individually (using Bootstrap’s individual <span class="qt">*.js</span>
+                        files), or all at once using <span class="qt">bootstrap.js</span> or the minified <span
+                            class="qt">bootstrap.min.js</span> (don’t include both).</p>
+                    <br><br>
+                    <h3>Dependencies</h3>
+                    <p>Some plugins and CSS components depend on other plugins. If you include plugins individually,
+                        make sure to check for these dependencies in the docs. Also note that <b> all plugins depend on
+                            jQuery</b> (this means jQuery must be included <b>before</b> the plugin files). <a
+                            href="#">Consult our package.json</a> to see which versions of jQuery are supported.</p>
+                    <p>Our dropdowns, popovers and tooltops also depend on <a href="#">Popper.js</a></p>
+                    <br><br>
+                    <h3>Data Attributes</h3>
+                    <p>Nearly all Bootstrap plugins can be enabled and configured through HTML alone with data
+                        attributes (our preferred way of using JavaScript functionality). Be sure to <b>only use one set
+                            of data attributes on a single element</b> (e.g., you cannot trigger a tooltip and modal
+                        from the same button.)</p>
+                    <p>
+                        However, in some situations it may be desirable to disable this functionality. To disable the
+                        data attribute API, unbind all events on the document namespaced with <span
+                            class="qt">data-api</span> like so:
+                    </p>
+                    <pre>
+                        <code>
+                            $(document).off('.data-api')
+                        </code>
+                    </pre>
+                    <p>Alternatively, to target a specific plugin, just include the plugin’s name as a namespace along
+                        with the data-api namespace like this:</p>
+                    <pre>
+                        <code>
+                            $(document).off('.alert-data-api')
+                        </code>
+                    </pre>
+                    <br><br>
+                    <h3>Events</h3>
+                    <p>Bootstrap provides custom events for most plugins’ unique actions. Generally, these come in an
+                        infinitive and past participle form - where the infinitive (ex. <span class="qt">show</span>) is
+                        triggered at the start of an event, and its past participle form (ex. <span
+                            class="qt">shown</span>) is triggered on the completion of an action.</p>
+                    <p>All infinitive events provide <span class="txt">preventDefault()</span> functionality. This
+                        provides the ability to stop the execution of an action before it starts. Returning false from
+                        an event handler will also automatically call <span class="qt">preventDefault().</span></p>
+                    <pre>
+                        <code>
+                            $(<span class="qt">'#myModal'</span>).on(<span class="qt">'show.bs.modal'</span>, <span class="txt">function</span> (e) { 
+                        </code><br>
+                        <code>
+                            &nbsp;&nbsp;&nbsp;<span class="txt">if</span> (!data) <span class="txt">return</span> e.preventDefault() // stops modal from being shown
+                        </code><br>
+                        <code>
+                        })
+                        </code>
+                    </pre>
+                    <br><br>
+                </section>
+
+                <!-- BUILD TOOLS -->
+
+                <section id="build-tools">
+                    <h1>Build Tools</h1>
+                    <p class="intro">
+                        Learn how to use Bootstrap’s included npm scripts to build our documentation, compile source
+                        code, run tests, and more.
+                    </p>
+                    <br>
+                    <h3>Tooling Setup</h3>
+                    <p>
+                        Bootstrap uses NPM scripts for its build system. Our package.json includes convenient methods
+                        for working with the framework, including compiling code, running tests, and more.
+                    </p>
+                    <p>
+                        To use our build system and run our documentation locally, you’ll need a copy of Bootstrap’s
+                        source files and Node. Follow these steps and you should be ready to rock:
+                    </p>
+                    <ol>
+                        <li><a href="#">Download and install Node.js</a>, which we use to manage our dependencies.</li>
+                        <li>Navigate to the root <span class="qt">/bootstrap</span> directory and run <span
+                                class="qt">npm install</span> to install our local dependencies listed in <a
+                                href="#">package.json.</a></li>
+                        <li>Install <a href="#">Ruby</a>, install <a href="#">Bundler</a> with <span class="qt">gem
+                                install bundler</span>, and finally run <span class="qt">bundle install</span>. This
+                            will install all Ruby dependencies, such as <span class="qt">Jekyll</span> and plugins.</li>
+                        <ul>
+                            <li><b>Windows users:</b> <a href="#">Read this guide</a> to get Jekyll up and running
+                                without problems.</li>
+                        </ul>
+                    </ol>
+                    <p>When completed, you'll be able to run various commands provided from the command line</p>
+                    <br><br>
+                    <h3>Using npm Scripts</h3>
+                    <p>Our <a href="#">packet Json</a> includes the following commands and tasks:</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Task</th>
+                                <th scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>npm run dist</td>
+                                <td>npm run dist creates the /dist directory with compiled files. Uses <a
+                                        href="#">Sass</a>,<a href="#">Autoprefixer</a>, and <a href="#">UglifyJS.</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>npm test</td>
+                                <td>Same as npm run dist plus it runs tests locally</td>
+                            </tr>
+                            <tr>
+                                <td>npm run docs</td>
+                                <td>Builds and lints CSS and JavaScript for docs. You can then run the documentation
+                                    locally via npm run docs-serve.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Run <span class="qt">npm run</span> to see all the available commands</p>
+                    <br><br>
+                    <h3>Autoprefixer</h3>
+                    <p>
+                        Bootstrap uses <a href="#">Autoprefixer</a> (included in our build process) to automatically add
+                        vendor prefixes to some CSS properties at build time. Doing so saves us time and code by
+                        allowing us to write key parts of our CSS a single time while eliminating the need for vendor
+                        mixins like those found in v3
+                    </p>
+                    <p>
+                        We maintain the list of browsers supported through Autoprefixer in a separate file within our
+                        GitHub repository. See <a href="#">/package.json</a> for details.
+                    </p>
+                    <br><br>
+                    <h3>Troubleshooting</h3>
+                    <p>
+                        Should you encounter problems with installing dependencies, uninstall all previous dependency
+                        versions (global and local). Then, rerun <span class="qt">npm install.</span>
+                    </p>
+                    <br><br>
+                </section>
+
+                <!-- ACCESSIBILITY -->
+
+                <section id="accessibility">
+                    <h1>Accessibility</h1>
+                    <p class="intro">
+                        A brief overview of Bootstrap’s features and limitations for the creation of accessible content.
+                    </p>
+                    <p>Bootstrap provides an easy-to-use framework of ready-made styles, layout tools, and interactive
+                        components, allowing developers to create websites and applications that are visually appealing,
+                        functionally rich, and accessible out of the box.</p>
+                    <br><br>
+                    <h3>Overview and Limitations</h3>
+                    <p>
+                        The overall accessibility of any project built with Bootstrap depends in large part on the
+                        author’s markup, additional styling, and scripting they’ve included. However, provided that
+                        these have been implemented correctly, it should be perfectly possible to create websites and
+                        applications with Bootstrap that fulfill <a href="#">WCAG 2.0 (A/AA/AAA),</a> <a
+                            href="#">Section 508</a> and similar accessibility standards and requirements.
+                    </p>
+                    <br><br>
+                    <h3>Structural Markup</h3>
+                    <p>Bootstrap’s styling and layout can be applied to a wide range of markup structures. This
+                        documentation aims to provide developers with best practice examples to demonstrate the use of
+                        Bootstrap itself and illustrate appropriate semantic markup, including ways in which potential
+                        accessibility concerns can be addressed.</p>
+                    <br><br>
+                    <h3>Interactive components</h3>
+                    <p>
+                        Bootstrap’s interactive components—such as modal dialogs, dropdown menus and custom tooltips—are
+                        designed to work for touch, mouse and keyboard users. Through the use of relevant <a
+                            href="#">WAI-ARIA</a> roles and attributes, these components should also be understandable
+                        and operable using assistive technologies (such as screen readers).
+                    </p>
+                    <p>
+                        Because Bootstrap’s components are purposely designed to be fairly generic, authors may need to
+                        include further ARIA roles and attributes, as well as JavaScript behavior, to more accurately
+                        convey the precise nature and functionality of their component. This is usually noted in the
+                        documentation.
+                    </p>
+                    <br><br>
+                    <h3>Additional Resources</h3>
+                    <ul class="add-link">
+                        <li><a href="#">Web Content Accessibility Guidelines (WCAG) 2.0</a></li>
+                        <li><a href="#">The A11Y Project</a></li>
+                        <li><a href="#">MDN Accessibility Documentation</a></li>
+                        <li><a href="#">Tenon.io Accessibility checker</a></li>
+                        <li><a href="#">Colour contrast Analyser (CCA)</a></li>
+                        <li><a href="#">"HTML Codesniffer" bookmarklet for identifying accessibility issues</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
