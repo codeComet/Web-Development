@@ -1,0 +1,17 @@
+- after the browser is loaded the cards will be shown (positioned randomly) and after 5 sec they will be hidden
+- player has to select the same 2 cards from the hidden cards
+- each time he succeeds points will increase by 50.
+- he will have 3 chances. each time he fails one chance will be deducted.
+- afer he runs out all the chances game is over.
+- each time browser reloads the cards will be randomly positioned
+
+
+
+
+
+HOW?
+
+- 2 divs (each with 8 sub divs)
+- parent div positioned in display flex or sub divs positioned float left
+- each div has the image of one of 8 cards
+- div position random by using the width of parent div as range.
